@@ -1,0 +1,18 @@
+[project]
+name = "langchain-google-calendar-toolkit"
+version = "0.1.0"
+description = "Project for using langchain tools"
+authors = [
+    {name = "yunahya",email = "yunah.kimya@i-esg.io"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["python-dotenv (>=1.1.0,<2.0.0)", "pathlib (>=1.0.1,<2.0.0)", "langchain (>=0.3.25,<0.4.0)", "langchain-openai (>=0.3.16,<0.4.0)", "langchain-teddynote (>=0.3.45,<0.4.0)", "langchain-google-genai (>=2.1.4,<3.0.0)", "google-auth (>=2.40.1,<3.0.0)", "google-api-python-client (>=2.169.0,<3.0.0)", "google-auth-oauthlib (>=1.2.2,<2.0.0)", "google-auth-httplib2 (>=0.2.0,<0.3.0)"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
